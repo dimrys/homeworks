@@ -1,0 +1,33 @@
+.someClass {
+
+}
+.wrapper {
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+    margin: 0 auto;
+}
+input{
+    margin: 0 10px;
+    border-radius: 5px;
+}
+button {
+    padding: 5px;
+}
+.errorMessage {
+    display: inline-block;
+    margin: 10px;
+    color: red;
+}
+
+
+
+.error {
+    border: 3px solid red;
+}
+
+.noError {
+    border: 3px solid green;
+}

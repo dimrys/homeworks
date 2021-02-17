@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+}
+
+.avatar img{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.messageBlock{
+    width: 200px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    background-color: darkgreen;
+    position: relative;
+    left: 20px;
+}
+.messageBlock:after{
+    content: '';
+    position: absolute;
+    left: -18px;
+    bottom: -1px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 15px 20px;
+    border-color: transparent transparent darkgreen transparent;
+}
+.messageBlock .name{
+    color: blueviolet;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+.messageBlock .message{
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+}
+.messageBlock .time{
+    color: forestgreen;
+    position: relative;
+    left: 160px;
+    bottom: 5px;
+    z-index: 1;
+    font-size: 12px;
+
+}
